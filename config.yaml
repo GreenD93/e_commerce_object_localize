@@ -1,0 +1,13 @@
+name: e_commerce_object_localizer
+
+# train config
+IMAGE_HEIGHT: 224
+IMAGE_WIDTH: 224
+GRID_SIZE: 7
+BATCH_SIZE: 16
+
+EPOCH: 200
+PATIENCE: 15
+LEARNING_RATE: 1e-4
+WEIGHT_DECAY: 0.0005
+LR_DECAY: 0.0001
